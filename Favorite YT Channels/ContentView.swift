@@ -8,12 +8,58 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   // var videos: [JaskoVideos] = Jasko.Jas
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+        NavigationView {
+        List {
+            VStack {
+                HStack {
+                    NavigationLink(destination: JaskoView(),
+                                   
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/0mZMT9lYigu17h1eLMAkXQBTrA_hnDfJzagMiolWTsPi4WX5JHU2qQFqwJGoymfilA1mWgoPZw=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                   // .frame(width: 75, height: 75)
+                Text("Jasko")
 
+                
+            })
+                
+            }
+            }
+            NavigationLink(destination: NukesView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLSRtD_Vi-1zqOWyFTrly4mnAZn6yARCohFpxSO4=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("Nuke's top 5")
+            
+            })
+            
+            NavigationLink(destination: OpenYourRealityView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLQ64NVE287CLag4ZSA3xve-knRkkfDIXwj1VFcS=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("Open Your Reality")
+            })
+            
+            NavigationLink(destination: SeanAllenView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLTwJ5zTcU_Uj1rrartHTXqEerAx8Cu-J1fwXcQ6XQ=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("Sean Allen")
+            })
+        }
+        
+        .navigationTitle("Youtube Channels")
+        }
+        
+}
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
