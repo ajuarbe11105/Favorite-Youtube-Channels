@@ -46,6 +46,8 @@ struct JaskoView: View {
                         Spacer()
                         Link("Dark Web Series", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzW1d0BB1HrUR3SICuu6NbO")!)
                             .accentColor(.white)
+
+                            .padding(.bottom, 20)
                         
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzg2f5wuUYrgHLGeiJMkGVy")!, label: {
                             Image("timeline")
@@ -60,6 +62,8 @@ struct JaskoView: View {
                         Link("Dark Web Timeline", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzg2f5wuUYrgHLGeiJMkGVy")!)
                             .accentColor(.white)
 
+                            .padding(.bottom, 20)
+
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTyyLtQPkR-a8HqrSdL9yAw6")!, label: {
                             Image("scary")
                                 .resizable()
@@ -73,6 +77,8 @@ struct JaskoView: View {
                         Link("Scary/Haunted/Overnight Adventures", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTyyLtQPkR-a8HqrSdL9yAw6")!)
                             .accentColor(.white)
 
+                            .padding(.bottom, 20)
+
                         
                         Group {
                             Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTwZVU7_nMYKYvPFFmUlk_M6")!, label: {
@@ -81,13 +87,14 @@ struct JaskoView: View {
                                     .scaledToFit()
                                     .cornerRadius(20)
                                     .aspectRatio(contentMode: .fit)
-                                //.frame(width: 100, height: 100)
                                     .offset(x: 0)
                                 
                             })
                             Spacer()
                             Link("Surfing the Dark Web Series", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTwZVU7_nMYKYvPFFmUlk_M6")!)
                                 .accentColor(.white)
+
+                                .padding(.bottom, 20)
 
                             Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTwQk55JY-A0akWcaVP4Cavf")!, label: {
                                 Image("valentino")

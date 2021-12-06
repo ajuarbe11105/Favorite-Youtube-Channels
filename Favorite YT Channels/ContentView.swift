@@ -56,7 +56,7 @@ struct ContentView: View {
         }
         
         .navigationTitle("Youtube Channels")
-        }
+        } .navigationViewStyle(StackNavigationViewStyle())
         
 }
 }
