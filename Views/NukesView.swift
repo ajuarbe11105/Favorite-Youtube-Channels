@@ -23,7 +23,7 @@ struct NukesView: View {
                 Text("Playlists")
                     .bold()
                     .underline()
-                    .font(.title3)
+                    .font(.largeTitle)
                     .foregroundColor(.white)
                     .padding()
                 

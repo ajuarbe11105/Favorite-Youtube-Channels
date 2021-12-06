@@ -12,7 +12,11 @@ struct ContentView: View {
    // var videos: [JaskoVideos] = Jasko.Jas
     
     var body: some View {
+        ZStack {
+            Color.black
+       
         NavigationView {
+            
         List {
             VStack {
                 HStack {
@@ -53,11 +57,28 @@ struct ContentView: View {
                 // .frame(width: 75, height: 75)
                 Text("Sean Allen")
             })
+            
+            NavigationLink(destination: PooView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLRihviH6q-uCoC-didhXhElvArJlaH1vqkpYSWbxw=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("GrandPooBear")
+            })
+            NavigationLink(destination: PooView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLRihviH6q-uCoC-didhXhElvArJlaH1vqkpYSWbxw=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("GrandPooBear")
+            })
+
+
         }
         
         .navigationTitle("Youtube Channels")
         } .navigationViewStyle(StackNavigationViewStyle())
-        
+        }
 }
 }
 struct ContentView_Previews: PreviewProvider {

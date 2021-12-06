@@ -23,7 +23,7 @@ struct SeanAllenView: View {
                 Text("Playlists")
                     .bold()
                     .underline()
-                    .font(.title3)
+                    .font(.largeTitle)
                     .foregroundColor(.white)
                     .padding()
                 
@@ -283,7 +283,7 @@ struct SeanAllenView: View {
                                             Link(destination: URL(string: "https://www.youtube.com/c/SeanAllen")!, label: {
                                                 Text("Sean Allen's Youtube Channel")
                                                     .bold()
-                                                    .font(.title2)
+                                                    .font(.title3)
                                                     .frame(width: 280, height: 50)
                                                     .background(Color(.systemBlue))
                                                     .foregroundColor(.white)

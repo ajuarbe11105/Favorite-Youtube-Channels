@@ -1,16 +1,13 @@
 //
-//  JaskoView.swift
+//  PooView.swift
 //  Favorite YT Channels
 //
-//  Created by Alberto Juarbe on 12/4/21.
+//  Created by Alberto Juarbe on 12/6/21.
 //
 
 import SwiftUI
 
-struct JaskoView: View {
-    
-    
-    
+struct PooView: View {
     var body: some View {
         ZStack {
             Color.black
@@ -18,7 +15,7 @@ struct JaskoView: View {
             
             VStack {
                 
-                Image("jaskoheader")
+                Image("poo")
                     .resizable()
                     .scaledToFit()
 
@@ -34,8 +31,8 @@ struct JaskoView: View {
                     ScrollView {
                         
                         // List {
-                        Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzW1d0BB1HrUR3SICuu6NbO")!, label: {
-                            Image("dw")
+                        Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl7w_SrnwWtWJM4GeHVMBA0j")!, label: {
+                            Image("oneyear")
                                 .resizable()
                                 .scaledToFit()
                                 .cornerRadius(20)
@@ -44,13 +41,13 @@ struct JaskoView: View {
                             
                         })
                         Spacer()
-                        Link("Dark Web Series", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzW1d0BB1HrUR3SICuu6NbO")!)
+                        Link("1 Year Mario Maker Levels", destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl7w_SrnwWtWJM4GeHVMBA0j")!)
                             .accentColor(.white)
 
                             .padding(.bottom, 20)
                         
-                        Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzg2f5wuUYrgHLGeiJMkGVy")!, label: {
-                            Image("timeline")
+                        Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl4kOl9qgMbKsapCyE09kuZ8")!, label: {
+                            Image("speedruns")
                                 .resizable()
                                 .scaledToFit()
                                 .cornerRadius(20)
@@ -59,13 +56,13 @@ struct JaskoView: View {
                             
                         })
                         Spacer()
-                        Link("Dark Web Timeline", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzg2f5wuUYrgHLGeiJMkGVy")!)
+                        Link("Speedruns", destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl4kOl9qgMbKsapCyE09kuZ8")!)
                             .accentColor(.white)
 
                             .padding(.bottom, 20)
 
-                        Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTyyLtQPkR-a8HqrSdL9yAw6")!, label: {
-                            Image("scary")
+                        Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl7EhSeE2OKzlBTyl3O1jEyk")!, label: {
+                            Image("hardlevels")
                                 .resizable()
                                 .scaledToFit()
                                 .cornerRadius(20)
@@ -74,15 +71,15 @@ struct JaskoView: View {
                             
                         })
                         Spacer()
-                        Link("Scary/Haunted/Overnight Adventures", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTyyLtQPkR-a8HqrSdL9yAw6")!)
+                        Link("Hard Levels", destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl7EhSeE2OKzlBTyl3O1jEyk")!)
                             .accentColor(.white)
 
                             .padding(.bottom, 20)
 
                         
                         Group {
-                            Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTwZVU7_nMYKYvPFFmUlk_M6")!, label: {
-                                Image("surfing")
+                            Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl5v-bjwHxsQyNevK9dnWKng6")!, label: {
+                                Image("race")
                                     .resizable()
                                     .scaledToFit()
                                     .cornerRadius(20)
@@ -91,13 +88,13 @@ struct JaskoView: View {
                                 
                             })
                             Spacer()
-                            Link("Surfing the Dark Web Series", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTwZVU7_nMYKYvPFFmUlk_M6")!)
+                            Link("CarlSagan42 vs Poo Challenges!", destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl5v-bjwHxsQyNevK9dnWKng")!)
                                 .accentColor(.white)
 
                                 .padding(.bottom, 20)
 
-                            Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTwQk55JY-A0akWcaVP4Cavf")!, label: {
-                                Image("valentino")
+                            Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl4gaghcO7-phOtdX9E1Goda")!, label: {
+                                Image("crazy")
                                     .resizable()
                                     .scaledToFit()
                                     .cornerRadius(20)
@@ -106,16 +103,16 @@ struct JaskoView: View {
                                 
                             })
                             Spacer()
-                            Link("Pocomoke Forest / Valntino Series", destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzTBZcuwUdPRZoc8YNiuLiE")!)
+                            Link("Super Mario Maker 2: Crazy And Hard Levels", destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl4gaghcO7-phOtdX9E1Goda")!)
                                 .accentColor(.white)
 
                                 .padding(.bottom, 20)
                             
                             
-                            Link(destination: URL(string: "https://www.youtube.com/c/JaskoYouTube")!, label: {
-                                Text("Jasko's Youtube Channel")
+                            Link(destination: URL(string: "https://www.youtube.com/c/GrandPOOBear")!, label: {
+                                Text("GrandPooBear's Youtube Channel")
                                     .bold()
-                                    .font(.title2)
+                                    .font(.title3)
                                     .frame(width: 280, height: 50)
                                     .background(Color(.systemBlue))
                                     .foregroundColor(.white)
@@ -137,10 +134,8 @@ struct JaskoView: View {
 
 
 
-
-
-struct JaskoView_Previews: PreviewProvider {
+struct PooView_Previews: PreviewProvider {
     static var previews: some View {
-        JaskoView()
+        PooView()
     }
 }

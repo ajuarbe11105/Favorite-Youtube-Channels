@@ -23,7 +23,7 @@ struct OpenYourRealityView: View {
                 Text("Playlists")
                     .bold()
                     .underline()
-                    .font(.title3)
+                    .font(.largeTitle)
                     .foregroundColor(.white)
                     .padding()
                 
@@ -249,6 +249,67 @@ struct OpenYourRealityView: View {
 
                                             .padding(.bottom, 20)
                                         
+                                        Group {
+                                            Text("Videos")
+                                            .bold()
+                                            .underline()
+                                            .font(.largeTitle)
+                                            .foregroundColor(.white)
+                                            .padding()
+                                            
+                                        
+                                            Link(destination: URL(string: "https://www.youtube.com/watch?v=oA8G9MK4Cvs")!, label: {
+                                                Image("10stages")
+                                                    .resizable()
+                                                    .scaledToFit()
+                                                    .cornerRadius(20)
+                                                    .aspectRatio(contentMode: .fit)
+                                                    .offset(x: 0)
+                                                
+                                            })
+                                            Spacer()
+                                            Link("The 10 Stages of the Afterlife [What Happens After We Die?]", destination: URL(string: "https://www.youtube.com/watch?v=oA8G9MK4Cvs")!)
+                                                .accentColor(.white)
+
+                                                .padding(.bottom, 20)
+
+                                            
+                                            Link(destination: URL(string: "https://www.youtube.com/results?search_query=what+happens+to+damaged+souls+in+the+spirit+world")!, label: {
+                                                Image("damaged")
+                                                    .resizable()
+                                                    .scaledToFit()
+                                                    .cornerRadius(20)
+                                                    .aspectRatio(contentMode: .fit)
+                                                    .offset(x: 0)
+                                                
+                                            })
+                                            Spacer()
+                                            Link("What Happens To Damaged Souls in the Spirit World?", destination: URL(string: "https://www.youtube.com/results?search_query=what+happens+to+damaged+souls+in+the+spirit+world")!)
+                                                .accentColor(.white)
+
+                                                .padding(.bottom, 20)
+
+
+                                            
+                                            Group {
+                                                Link(destination: URL(string: "https://www.youtube.com/watch?v=DPKhfzW8jE0")!, label: {
+                                                    Image("journeysouls")
+                                                        .resizable()
+                                                        .scaledToFit()
+                                                        .cornerRadius(20)
+                                                        .aspectRatio(contentMode: .fit)
+                                                        .offset(x: 0)
+                                                    
+                                                })
+                                                Spacer()
+                                                Link("Journey of Souls [Encounters in the Spirit World]", destination: URL(string: "https://www.youtube.com/watch?v=DPKhfzW8jE0")!)
+                                                    .accentColor(.white)
+
+                                                    .padding(.bottom, 20)
+
+                                            }
+                                            
+
                                        
                                           
                                             Link(destination: URL(string: "https://www.youtube.com/c/OpenYourReality")!, label: {
@@ -279,7 +340,7 @@ struct OpenYourRealityView: View {
             
         }
         
-        
+}
 
 
 
