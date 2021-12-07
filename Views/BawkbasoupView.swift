@@ -20,7 +20,8 @@ struct BawkbasoupView: View {
                     .scaledToFit()
 
                 Spacer()
-                Text("Playlists")
+                ScrollView {
+                    Text("Playlists & Videos")
                     .bold()
                     .underline()
                     .font(.largeTitle)
@@ -152,7 +153,7 @@ struct BawkbasoupView: View {
             }
             
         }
-        
+        }
         
     }
 }

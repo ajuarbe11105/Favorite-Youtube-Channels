@@ -20,7 +20,8 @@ struct SeanAllenView: View {
                     .scaledToFit()
                     
                 Spacer()
-                Text("Playlists")
+                ScrollView {
+                    Text("Playlists & Videos")
                     .bold()
                     .underline()
                     .font(.largeTitle)
@@ -28,7 +29,7 @@ struct SeanAllenView: View {
                     .padding()
                 
                 VStack(alignment: .leading) {
-                    ScrollView {
+                   
                         
                         // List {
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PL8seg1JPkqgG3822Pbf_H9xldrODNV3XI")!, label: {
@@ -289,6 +290,7 @@ struct SeanAllenView: View {
                                                     .foregroundColor(.white)
                                                     .cornerRadius(15)
                                             })
+                                                .padding(.horizontal, 70)
                                             }
 
                                         }

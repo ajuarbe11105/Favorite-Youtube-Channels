@@ -14,13 +14,15 @@ struct OpenYourRealityView: View {
                 .ignoresSafeArea()
             
             VStack {
+                //MARK: BANNER
                 
                 Image("oyr")
                     .resizable()
                     .scaledToFit()
                     
                 Spacer()
-                Text("Playlists")
+                ScrollView {
+                Text("Playlists & Videos")
                     .bold()
                     .underline()
                     .font(.largeTitle)
@@ -28,8 +30,8 @@ struct OpenYourRealityView: View {
                     .padding()
                 
                 VStack(alignment: .leading) {
-                    ScrollView {
-                        
+                    
+                        //MARK: PLAYLISTS
                       
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLWQXN6zPPrHrfqDkvKcg6avx9Fsh_mNI_")!, label: {
                             Image("simulation")
@@ -249,6 +251,7 @@ struct OpenYourRealityView: View {
 
                                             .padding(.bottom, 20)
                                         
+                                        //MARK: VIDEOS 
                                         Group {
                                             Text("Videos")
                                             .bold()
@@ -321,6 +324,7 @@ struct OpenYourRealityView: View {
                                                     .foregroundColor(.white)
                                                     .cornerRadius(15)
                                             })
+                                                .padding(.horizontal, 70)
                                             }
 
                                         }

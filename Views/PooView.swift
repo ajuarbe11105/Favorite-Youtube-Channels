@@ -20,7 +20,8 @@ struct PooView: View {
                     .scaledToFit()
 
                 Spacer()
-                Text("Playlists")
+                ScrollView {
+                    Text("Playlists & Videos")
                     .bold()
                     .underline()
                     .font(.largeTitle)
@@ -28,7 +29,7 @@ struct PooView: View {
                     .padding()
                 
                 VStack(alignment: .leading) {
-                    ScrollView {
+                  
                         
                         // List {
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLNOpLz685Jl7w_SrnwWtWJM4GeHVMBA0j")!, label: {
@@ -118,6 +119,7 @@ struct PooView: View {
                                     .foregroundColor(.white)
                                     .cornerRadius(15)
                             })
+                                .padding(.horizontal, 70)
                             
                         }
                         

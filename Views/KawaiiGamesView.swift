@@ -20,6 +20,7 @@ struct KawaiiGamesView: View {
                     .scaledToFit()
 
                 Spacer()
+                ScrollView {
                 Text("Playlists & Videos")
                     .bold()
                     .underline()
@@ -28,7 +29,7 @@ struct KawaiiGamesView: View {
                     .padding()
                 
                 VStack(alignment: .leading) {
-                    ScrollView {
+                
                         
                         
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLJbGLUxEAvq9zeeTY8UGYEyA8_snbdZ37")!, label: {
@@ -198,6 +199,7 @@ struct KawaiiGamesView: View {
                                     .foregroundColor(.white)
                                     .cornerRadius(15)
                             })
+                                    .padding(.horizontal, 70)
                             }
                             
                         }

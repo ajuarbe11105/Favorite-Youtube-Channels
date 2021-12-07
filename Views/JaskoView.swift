@@ -17,13 +17,16 @@ struct JaskoView: View {
                 .ignoresSafeArea()
             
             VStack {
-                
+                //MARK: BANNER
                 Image("jaskoheader")
                     .resizable()
                     .scaledToFit()
 
                 Spacer()
-                Text("Playlists")
+                
+                //MARK: PLAYLISTS
+                ScrollView {
+                    Text("Playlists & Videos")
                     .bold()
                     .underline()
                     .font(.largeTitle)
@@ -31,7 +34,7 @@ struct JaskoView: View {
                     .padding()
                 
                 VStack(alignment: .leading) {
-                    ScrollView {
+                    
                         
                         // List {
                         Link(destination: URL(string: "https://www.youtube.com/playlist?list=PLuRbJK0CkbTzW1d0BB1HrUR3SICuu6NbO")!, label: {
@@ -112,16 +115,89 @@ struct JaskoView: View {
                                 .padding(.bottom, 20)
                             
                             
-                            Link(destination: URL(string: "https://www.youtube.com/c/JaskoYouTube")!, label: {
-                                Text("Jasko's Youtube Channel")
-                                    .bold()
-                                    .font(.title2)
-                                    .frame(width: 280, height: 50)
-                                    .background(Color(.systemBlue))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(15)
-                            })
                             
+                            
+                                                        
+                            
+                            //MARK: VIDEOS
+                            Group {
+                                Text("Videos")
+                                .bold()
+                                .underline()
+                                .font(.largeTitle)
+                                .foregroundColor(.white)
+                                .padding()
+                                
+                            
+                                Link(destination: URL(string: "https://www.youtube.com/watch?v=H4628V4OcHI")!, label: {
+                                    Image("noalone")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .cornerRadius(20)
+                                        .aspectRatio(contentMode: .fit)
+                                        .offset(x: 0)
+
+                                })
+                                Spacer()
+                                Link("Dark Web SD Card Videos REACTION (Warning) Gone Wrong", destination: URL(string: "https://www.youtube.com/watch?v=H4628V4OcHI")!)
+                                    .accentColor(.white)
+
+                                    .padding(.bottom, 20)
+                                
+                                Link(destination: URL(string: "hhttps://www.youtube.com/watch?v=Q_8AV7P4F6s&t=3010s")!, label: {
+                                    Image("1strando")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .cornerRadius(20)
+                                        .aspectRatio(contentMode: .fit)
+                                        .offset(x: 0)
+
+                                })
+                                
+                                Spacer()
+                                Link("Is RANDONAUTICA Real? I Went Randonauting So You Don't Have To (Gone Wrong)", destination: URL(string: "https://www.youtube.com/watch?v=Q_8AV7P4F6s&t=3010s")!)
+                                    .accentColor(.white)
+
+                                    .padding(.bottom, 20)
+                                
+                                
+                                Link(destination: URL(string: "https://www.youtube.com/watch?v=DD0JUdziUDI&t=2268s")!, label: {
+                                    Image("randotruth")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .cornerRadius(20)
+                                        .aspectRatio(contentMode: .fit)
+                                        .offset(x: 0)
+
+                                })
+                                Spacer()
+                                Link("RANDONAUTICA - THE TERRIFYING TRUTH (Do NOT Play This Scary app) WARNING", destination: URL(string: "https://www.youtube.com/watch?v=DD0JUdziUDI&t=2268s")!)
+                                    .accentColor(.white)
+
+                                    .padding(.bottom, 20)
+                                
+                            }
+                            
+                            //MARK: BUTTON TO YOUTUBE CHANNEL
+                    Group {
+                        Link(destination: URL(string: "https://www.youtube.com/c/JaskoYouTube")!, label: {
+                            Text("Jasko's Youtube Channel")
+                                .bold()
+                                .font(.title2)
+                                .frame(width: 280, height: 50)
+                                .background(Color(.systemBlue))
+                                .foregroundColor(.white)
+                                .cornerRadius(15)
+                        })
+                    }.padding(.horizontal, 70)
+                                }
+                        
+                  
+
+
+                }
+            }
+
                         }
                         
                         
@@ -129,11 +205,7 @@ struct JaskoView: View {
                 }
             }
             
-        }
-        
-        
-    }
-}
+ 
 
 
 

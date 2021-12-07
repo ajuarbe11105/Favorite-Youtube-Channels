@@ -80,6 +80,14 @@ struct ContentView: View {
                 // .frame(width: 75, height: 75)
                 Text("Bawkbasoup")
             })
+            
+            NavigationLink(destination: CJView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLS0RMNSCeu7zShqxe4ZJVIVqWQrxesYb7lT_l8V6w=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("CJ Faison")
+            })
 
 
         }
