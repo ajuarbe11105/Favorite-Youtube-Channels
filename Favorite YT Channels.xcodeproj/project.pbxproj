@@ -17,6 +17,7 @@
 		0B08C578275B4C97001C520B /* SeanAllenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C577275B4C97001C520B /* SeanAllenView.swift */; };
 		0BC86153275E5B3A00830D9C /* PooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86152275E5B3A00830D9C /* PooView.swift */; };
 		0BC86155275E79AB00830D9C /* KawaiiGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */; };
+		0BC86157275EDD7300830D9C /* BawkbasoupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86156275EDD7300830D9C /* BawkbasoupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0B08C577275B4C97001C520B /* SeanAllenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanAllenView.swift; sourceTree = "<group>"; };
 		0BC86152275E5B3A00830D9C /* PooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PooView.swift; sourceTree = "<group>"; };
 		0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KawaiiGamesView.swift; sourceTree = "<group>"; };
+		0BC86156275EDD7300830D9C /* BawkbasoupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BawkbasoupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0B08C573275B464C001C520B /* NukesView.swift */,
 				0B08C577275B4C97001C520B /* SeanAllenView.swift */,
 				0BC86152275E5B3A00830D9C /* PooView.swift */,
+				0BC86156275EDD7300830D9C /* BawkbasoupView.swift */,
 				0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */,
 				0B08C575275B4653001C520B /* OpenYourRealityView.swift */,
 			);
@@ -165,6 +168,7 @@
 			files = (
 				0B08C565275B3DF8001C520B /* ContentView.swift in Sources */,
 				0B08C563275B3DF8001C520B /* Favorite_YT_ChannelsApp.swift in Sources */,
+				0BC86157275EDD7300830D9C /* BawkbasoupView.swift in Sources */,
 				0B08C578275B4C97001C520B /* SeanAllenView.swift in Sources */,
 				0BC86153275E5B3A00830D9C /* PooView.swift in Sources */,
 				0B08C572275B3F45001C520B /* JaskoView.swift in Sources */,

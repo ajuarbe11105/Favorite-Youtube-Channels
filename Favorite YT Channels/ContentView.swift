@@ -65,12 +65,20 @@ struct ContentView: View {
                 // .frame(width: 75, height: 75)
                 Text("GrandPooBear")
             })
-            NavigationLink(destination: PooView(),
+            NavigationLink(destination: KawaiiGamesView(),
                            label: {
-                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLRihviH6q-uCoC-didhXhElvArJlaH1vqkpYSWbxw=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/V9qaCO_sosUfJWclp0NND489teYrOlwFr1o7TayCgc78R7AWNUTnIsjIAUe_ji-kMtWIK1sn=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
                     .clipShape(Circle())
                 // .frame(width: 75, height: 75)
-                Text("GrandPooBear")
+                Text("Kawaii Games")
+            })
+            
+            NavigationLink(destination: BawkbasoupView(),
+                           label: {
+                AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLRH4TAwlGPcUHyGAujsfjO16WTC0Ipqpx77D4JXiw=s88-c-k-c0x00ffffff-no-rj"), scale: 2)
+                    .clipShape(Circle())
+                // .frame(width: 75, height: 75)
+                Text("Bawkbasoup")
             })
 
 
