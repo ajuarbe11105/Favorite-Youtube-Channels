@@ -15,6 +15,8 @@
 		0B08C574275B464C001C520B /* NukesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C573275B464C001C520B /* NukesView.swift */; };
 		0B08C576275B4653001C520B /* OpenYourRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C575275B4653001C520B /* OpenYourRealityView.swift */; };
 		0B08C578275B4C97001C520B /* SeanAllenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C577275B4C97001C520B /* SeanAllenView.swift */; };
+		0B5D17342763D1550089D6A8 /* YoutubeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D17332763D1550089D6A8 /* YoutubeListView.swift */; };
+		0B5D17362763D5640089D6A8 /* Z3n PnkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D17352763D5640089D6A8 /* Z3n PnkView.swift */; };
 		0BC86153275E5B3A00830D9C /* PooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86152275E5B3A00830D9C /* PooView.swift */; };
 		0BC86155275E79AB00830D9C /* KawaiiGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */; };
 		0BC86157275EDD7300830D9C /* BawkbasoupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86156275EDD7300830D9C /* BawkbasoupView.swift */; };
@@ -31,6 +33,8 @@
 		0B08C573275B464C001C520B /* NukesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NukesView.swift; sourceTree = "<group>"; };
 		0B08C575275B4653001C520B /* OpenYourRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenYourRealityView.swift; sourceTree = "<group>"; };
 		0B08C577275B4C97001C520B /* SeanAllenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanAllenView.swift; sourceTree = "<group>"; };
+		0B5D17332763D1550089D6A8 /* YoutubeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeListView.swift; sourceTree = "<group>"; };
+		0B5D17352763D5640089D6A8 /* Z3n PnkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z3n PnkView.swift"; sourceTree = "<group>"; };
 		0BC86152275E5B3A00830D9C /* PooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PooView.swift; sourceTree = "<group>"; };
 		0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KawaiiGamesView.swift; sourceTree = "<group>"; };
 		0BC86156275EDD7300830D9C /* BawkbasoupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BawkbasoupView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		0B08C556275B3DF7001C520B = {
 			isa = PBXGroup;
 			children = (
+				0B99540727604F35009C5405 /* ListViewModel */,
 				0B08C570275B3F38001C520B /* Views */,
 				0B08C561275B3DF8001C520B /* Favorite YT Channels */,
 				0B08C560275B3DF7001C520B /* Products */,
@@ -70,6 +75,7 @@
 			children = (
 				0B08C562275B3DF8001C520B /* Favorite_YT_ChannelsApp.swift */,
 				0B08C564275B3DF8001C520B /* ContentView.swift */,
+				0B5D17332763D1550089D6A8 /* YoutubeListView.swift */,
 				0B08C566275B3DF8001C520B /* Assets.xcassets */,
 				0B08C568275B3DF8001C520B /* Preview Content */,
 			);
@@ -92,11 +98,19 @@
 				0B08C577275B4C97001C520B /* SeanAllenView.swift */,
 				0BC86152275E5B3A00830D9C /* PooView.swift */,
 				0BC86156275EDD7300830D9C /* BawkbasoupView.swift */,
+				0B5D17352763D5640089D6A8 /* Z3n PnkView.swift */,
 				0BC8617E275FC84600830D9C /* CJView.swift */,
 				0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */,
 				0B08C575275B4653001C520B /* OpenYourRealityView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0B99540727604F35009C5405 /* ListViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ListViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,8 @@
 				0B08C578275B4C97001C520B /* SeanAllenView.swift in Sources */,
 				0BC86153275E5B3A00830D9C /* PooView.swift in Sources */,
 				0B08C572275B3F45001C520B /* JaskoView.swift in Sources */,
+				0B5D17362763D5640089D6A8 /* Z3n PnkView.swift in Sources */,
+				0B5D17342763D1550089D6A8 /* YoutubeListView.swift in Sources */,
 				0B08C574275B464C001C520B /* NukesView.swift in Sources */,
 				0B08C576275B4653001C520B /* OpenYourRealityView.swift in Sources */,
 				0BC86155275E79AB00830D9C /* KawaiiGamesView.swift in Sources */,

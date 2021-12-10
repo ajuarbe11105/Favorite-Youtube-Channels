@@ -11,7 +11,7 @@ import SwiftUI
 struct Favorite_YT_ChannelsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            YoutubeListView()
         }
     }
 }
