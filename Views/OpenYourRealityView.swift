@@ -16,9 +16,12 @@ struct OpenYourRealityView: View {
             VStack {
                 //MARK: BANNER
                 
-                Image("oyr")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/c/OpenYourReality")!, label: {
+                    Image("oyr")
+                        .resizable()
+                        .scaledToFit()
+                    
+                })
                     
                 Spacer()
                 ScrollView {

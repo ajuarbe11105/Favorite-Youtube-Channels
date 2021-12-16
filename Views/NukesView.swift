@@ -14,11 +14,13 @@ struct NukesView: View {
                 .ignoresSafeArea()
             
             VStack {
-                
-                Image("nukes")
-                    .resizable()
-                    .scaledToFit()
-                //  .frame(width: .in)
+                Link(destination: URL(string: "https://www.youtube.com/c/NukesTop5")!, label: {
+                    Image("nukes")
+                        .resizable()
+                        .scaledToFit()
+                    //  .frame(width: .in)
+                    
+                })
                 Spacer()
                 
                 ScrollView {

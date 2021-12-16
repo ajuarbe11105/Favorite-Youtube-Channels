@@ -15,9 +15,12 @@ struct PooView: View {
             
             VStack {
                 
-                Image("poo")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/c/GrandPOOBear")!, label: {
+                    Image("poo")
+                        .resizable()
+                        .scaledToFit()
+                    
+                })
 
                 Spacer()
                 ScrollView {

@@ -89,6 +89,11 @@ struct YoutubeListView: View {
                         Text("Open Your Reality")
                     })
                     
+                    NavigationLink(destination: TomCampbellView(), label: {
+                        AsyncImage(url: URL(string: "https://yt3.ggpht.com/ytc/AKedOLTMuqJJDW_uYOKkn71ALVRlg35SB1Ma499Rw1Rb=s48-c-k-c0x00ffffff-no-rj"), scale: 1)
+                            .clipShape(Circle())
+                        Text("Tom Campbell")
+                    })
                     
             })
                 Section("Development", content: {

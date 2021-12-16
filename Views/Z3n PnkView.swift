@@ -16,9 +16,12 @@ struct Z3nPnkView: View {
             
             VStack {
                 
-                Image("z3n")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/channel/UCuawtNFKzgSjcEleE-va9GA")!, label: {
+                    Image("z3n")
+                        .resizable()
+                        .scaledToFit()
+                    
+                })
                 
                 Spacer()
                 ScrollView {

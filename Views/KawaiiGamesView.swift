@@ -15,9 +15,12 @@ struct KawaiiGamesView: View {
             
             VStack {
                 
-                Image("Kawaii")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/c/kawaiigames")!, label: {
+                    
+                    Image("Kawaii")
+                        .resizable()
+                        .scaledToFit()
+                })
 
                 Spacer()
                 ScrollView {
@@ -190,7 +193,7 @@ struct KawaiiGamesView: View {
                                 
                                 
                                 
-                            Link(destination: URL(string: "https://www.youtube.com")!, label: {
+                            Link(destination: URL(string: "https://www.youtube.com/c/kawaiigames")!, label: {
                                 Text("Kawaii Games's Youtube Channel")
                                     .bold()
                                     .font(.title3)

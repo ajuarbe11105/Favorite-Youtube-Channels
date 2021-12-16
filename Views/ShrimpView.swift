@@ -16,9 +16,12 @@ struct ShrimpView: View {
             
             VStack {
                 //MARK: BANNER
-                Image("shrimp")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/channel/UC3QTbZWOZFf0ff8YGKQjEUw")!, label: {
+                    Image("shrimp")
+                        .resizable()
+                        .scaledToFit()
+                    
+                })
                 
                 Spacer()
                 

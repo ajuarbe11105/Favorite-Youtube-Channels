@@ -15,9 +15,12 @@ struct BawkbasoupView: View {
             
             VStack {
                 
-                Image("Bawkbasoup")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/channel/UC1TLG-624t4zkViqiypHoSA")!, label: {
+                    Image("Bawkbasoup")
+                        .resizable()
+                        .scaledToFit()
+                    
+                })
 
                 Spacer()
                 ScrollView {

@@ -18,9 +18,12 @@ struct JaskoView: View {
             
             VStack {
                 //MARK: BANNER
-                Image("jaskoheader")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/c/JaskoYouTube")!, label: {
+                    
+                    Image("jaskoheader")
+                        .resizable()
+                        .scaledToFit()
+                })
 
                 Spacer()
                 

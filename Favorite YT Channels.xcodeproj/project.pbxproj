@@ -22,6 +22,7 @@
 		0BC86155275E79AB00830D9C /* KawaiiGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */; };
 		0BC86157275EDD7300830D9C /* BawkbasoupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC86156275EDD7300830D9C /* BawkbasoupView.swift */; };
 		0BC8617F275FC84600830D9C /* CJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC8617E275FC84600830D9C /* CJView.swift */; };
+		0BEB901A276AE57800681141 /* TomCampbellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB9019276AE57800681141 /* TomCampbellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KawaiiGamesView.swift; sourceTree = "<group>"; };
 		0BC86156275EDD7300830D9C /* BawkbasoupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BawkbasoupView.swift; sourceTree = "<group>"; };
 		0BC8617E275FC84600830D9C /* CJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJView.swift; sourceTree = "<group>"; };
+		0BEB9019276AE57800681141 /* TomCampbellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomCampbellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				0BC86152275E5B3A00830D9C /* PooView.swift */,
 				0BC86156275EDD7300830D9C /* BawkbasoupView.swift */,
 				0BACB399276448690089E702 /* ShrimpView.swift */,
+				0BEB9019276AE57800681141 /* TomCampbellView.swift */,
 				0B5D17352763D5640089D6A8 /* Z3n PnkView.swift */,
 				0BC8617E275FC84600830D9C /* CJView.swift */,
 				0BC86154275E79AB00830D9C /* KawaiiGamesView.swift */,
@@ -195,6 +198,7 @@
 				0BC86153275E5B3A00830D9C /* PooView.swift in Sources */,
 				0B08C572275B3F45001C520B /* JaskoView.swift in Sources */,
 				0B5D17362763D5640089D6A8 /* Z3n PnkView.swift in Sources */,
+				0BEB901A276AE57800681141 /* TomCampbellView.swift in Sources */,
 				0B5D17342763D1550089D6A8 /* YoutubeListView.swift in Sources */,
 				0B08C574275B464C001C520B /* NukesView.swift in Sources */,
 				0B08C576275B4653001C520B /* OpenYourRealityView.swift in Sources */,

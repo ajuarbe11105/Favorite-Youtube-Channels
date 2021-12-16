@@ -14,10 +14,12 @@ struct SeanAllenView: View {
                 .ignoresSafeArea()
             
             VStack {
-                
-                Image("SA")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/c/SeanAllen")!, label: {
+                    Image("SA")
+                        .resizable()
+                        .scaledToFit()
+                    
+                })
                     
                 Spacer()
                 ScrollView {

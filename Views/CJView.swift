@@ -17,9 +17,12 @@ struct CJView: View {
                 
                 //MARK: BANNER
                 
-                Image("cj")
-                    .resizable()
-                    .scaledToFit()
+                Link(destination: URL(string: "https://www.youtube.com/c/CJFaison")!, label: {
+                    
+                    Image("cj")
+                        .resizable()
+                        .scaledToFit()
+                })
                     
                 Spacer()
                 ScrollView {
